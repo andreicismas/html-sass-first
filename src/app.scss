@@ -3,11 +3,12 @@ $brand_bakground_color:red;
 $underline:underline blue 4px;
 
 
-.btn_:hover{
-   text-decoration: $underline;
-}
+
 
 .btn_{
     background-color: $brand_bakground_color;
+    :hover{
+        text-decoration: $underline;
+     }
 }
 
