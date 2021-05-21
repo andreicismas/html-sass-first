@@ -1,8 +1,7 @@
-.btn_:hover {
-  -webkit-text-decoration: underline blue 4px;
-          text-decoration: underline blue 4px;
+.btn_ {
+  background-color: yellow;
 }
 
-.btn_ {
-  background-color: red;
+.btn_:hover {
+  color: blue;
 }

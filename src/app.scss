@@ -1,14 +1,14 @@
-$brand_bakground_color:red;
+$brand_bakground_color:yellow;
 
-$underline:underline blue 3px;
+$text_color: blue ;
 
 
 
 
 .btn_{
     background-color: $brand_bakground_color;
-    :hover{
-        text-decoration: $underline;
-     }
 }
 
+.btn_:hover{
+    color: $text_color;
+ }
